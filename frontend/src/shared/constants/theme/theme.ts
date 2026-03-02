@@ -84,10 +84,22 @@ export const theme = createTheme({
             '#762c00',
             '#5c2200',
             '#471700'
-        ]
+        ],
+         pig: [
+            '#fff0f6',
+            '#ffe0ee',
+            '#ffc2df',
+            '#ffa3cf',
+            '#ff83be',
+            '#ff63ad',
+            '#ff449d',
+            '#e63386',
+            '#cc2a73',
+            '#b32060',
+    ],
     },
-    primaryShade: 8,
-    primaryColor: 'cyan',
+    primaryShade: 6,
+    primaryColor: 'pig',
     autoContrast: true,
     luminanceThreshold: 0.3,
     headings: {
