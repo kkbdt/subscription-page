@@ -33,6 +33,8 @@ export function App() {
                 <ModalsProvider>
                     <Notifications position={mq ? 'top-right' : 'bottom-right'} />
                     <NavigationProgress />
+                    <div className="animated-background" />
+                    <EmojiBackground density={42} emojis={['🐷','🐽','🌸','💗','✨']} />
 
                     <Router />
                 </ModalsProvider>
