@@ -15,7 +15,7 @@ import { useMediaQuery } from '@mantine/hooks'
 
 import { initDayjs } from '@shared/utils/time-utils'
 import { theme } from '@shared/constants'
-
+import { EmojiBackground } from '@shared/ui/EmojiBackground'
 import { Router } from './app/router/router'
 
 polyfillCountryFlagEmojis()
@@ -33,7 +33,6 @@ export function App() {
                 <ModalsProvider>
                     <Notifications position={mq ? 'top-right' : 'bottom-right'} />
                     <NavigationProgress />
-                    <div className="animated-background" />
                     <EmojiBackground density={42} emojis={['🐷','🐽','🌸','💗','✨']} />
 
                     <Router />
