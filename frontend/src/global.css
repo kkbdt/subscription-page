@@ -83,3 +83,27 @@ html, body {
     background: linear-gradient(135deg, rgba(253, 126, 20, 0.1) 0%, rgba(247, 103, 7, 0.05) 100%);
     border: 1px solid rgba(253, 126, 20, 0.2);
 }
+
+.emoji-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0; /* ниже контента */
+  overflow: hidden;
+}
+
+.emoji-bg__item {
+  position: absolute;
+  top: 110%;
+  transform: translateY(0);
+  filter: blur(0px);
+  animation-name: emoji-float-up;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+@keyframes emoji-float-up {
+  0%   { transform: translateY(0) rotate(0deg); }
+  100% { transform: translateY(-140vh) rotate(180deg); }
+}
