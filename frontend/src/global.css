@@ -1,6 +1,13 @@
 html, body {
   min-height: 100vh;
-
+  color: #111827;
+  a {
+  color: #be185d;
+}
+  .mantine-Text-root,
+.mantine-Title-root {
+  color: #111827;
+}
   /* светлая база */
   background-color: #fff5f7;
 
@@ -38,7 +45,7 @@ html, body {
   -webkit-backdrop-filter: blur(12px);
 
   background: rgba(255, 245, 247, 0.75);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 50);
 }
 
 .logo-text-highlight { color: #ff4fa3; }
@@ -46,42 +53,42 @@ html, body {
 
 .info-card-cyan {
     background: linear-gradient(135deg, rgba(34, 211, 238, 0.1) 0%, rgba(6, 182, 212, 0.05) 100%);
-    border: 1px solid rgba(34, 211, 238, 0.2);
+    border: 1px solid rgba(34, 211, 238, 50);
 }
 
 .info-card-violet {
     background: linear-gradient(135deg, rgba(151, 117, 250, 0.1) 0%, rgba(132, 94, 247, 0.05) 100%);
-    border: 1px solid rgba(151, 117, 250, 0.2);
+    border: 1px solid rgba(151, 117, 250, 50);
 }
 
 .info-card-green {
     background: linear-gradient(135deg, rgba(64, 192, 87, 0.1) 0%, rgba(55, 178, 77, 0.05) 100%);
-    border: 1px solid rgba(64, 192, 87, 0.2);
+    border: 1px solid rgba(64, 192, 87, 50);
 }
 
 .info-card-red {
     background: linear-gradient(135deg, rgba(250, 82, 82, 0.1) 0%, rgba(224, 49, 49, 0.05) 100%);
-    border: 1px solid rgba(250, 82, 82, 0.2);
+    border: 1px solid rgba(250, 82, 82, 50);
 }
 
 .info-card-yellow {
     background: linear-gradient(135deg, rgba(250, 176, 5, 0.1) 0%, rgba(245, 159, 0, 0.05) 100%);
-    border: 1px solid rgba(250, 176, 5, 0.2);
+    border: 1px solid rgba(250, 176, 5, 50);
 }
 
 .info-card-blue {
     background: linear-gradient(135deg, rgba(34, 139, 230, 0.1) 0%, rgba(28, 126, 214, 0.05) 100%);
-    border: 1px solid rgba(34, 139, 230, 0.2);
+    border: 1px solid rgba(34, 139, 230, 50);
 }
 
 .info-card-teal {
     background: linear-gradient(135deg, rgba(32, 201, 151, 0.1) 0%, rgba(18, 184, 134, 0.05) 100%);
-    border: 1px solid rgba(32, 201, 151, 0.2);
+    border: 1px solid rgba(32, 201, 151, 50);
 }
 
 .info-card-orange {
     background: linear-gradient(135deg, rgba(253, 126, 20, 0.1) 0%, rgba(247, 103, 7, 0.05) 100%);
-    border: 1px solid rgba(253, 126, 20, 0.2);
+    border: 1px solid rgba(253, 126, 20, 50);
 }
 
 .emoji-bg {
